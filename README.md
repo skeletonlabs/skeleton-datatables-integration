@@ -2,7 +2,7 @@
 
 [Svelte Simple Datatables](https://vincjo.fr/datatables/home) components styled with [Skeleton](https://www.skeleton.dev/).
 
-![example](static/ssd.gif)
+![example](static/ssd-skeleton.gif)
 
 ## Developing
 
@@ -18,4 +18,4 @@ pnpm i
 pnpm dev
 ```
 
-This is an opinionated template, which uses Skeleton, Typescript and pnpm. If you prefer to start from scratch, or add to an existing project, then you can follow the [official guide in the Skeleton Docs](https://www.skeleton.dev/docs/tauri).
+This is an opinionated template, which uses Skeleton, Typescript and pnpm. If you prefer to start from scratch, or add to an existing project, then you can follow the [official guide in the Skeleton Docs](https://www.skeleton.dev/docs/ssd).
