@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<h1 class="text-center h2 p-2 my-8">
+<h1 class="text-center h1 p-2 my-8">
 	<a class="anchor" href="https://vincjo.fr/datatables/home" target="_blank"
 		>Svelte Simple Datatable</a
 	>
@@ -10,6 +10,11 @@
 		>Skeleton</a
 	>
 </h1>
+
+<p class="text-center text-xl my-8">
+	Your components will need to be configured slightly differently depending on whether the data is
+	coming from the server or the client. Examples for each are provided below.
+</p>
 
 <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
 	<!-- CLIENT -->
@@ -24,13 +29,7 @@
 		<div class="p-4 space-y-4">
 			<h3 class="h3" data-toc-ignore>Client</h3>
 			<article>
-				<p>
-					<!-- cspell:disable -->
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aspernatur provident eveniet
-					eligendi cumque consequatur tempore sint nisi sapiente. Iste beatae laboriosam iure molestias
-					cum expedita architecto itaque quae rem.
-					<!-- cspell:enable -->
-				</p>
+				<p>An example with fake contact data from a local Typescript file.</p>
 			</article>
 		</div>
 	</a>
@@ -48,11 +47,11 @@
 			<h3 class="h3" data-toc-ignore>Server</h3>
 			<article>
 				<p>
-					<!-- cspell:disable -->
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aspernatur provident eveniet
-					eligendi cumque consequatur tempore sint nisi sapiente. Iste beatae laboriosam iure molestias
-					cum expedita architecto itaque quae rem.
-					<!-- cspell:enable -->
+					An example with fake to-do data from the <a
+						href="https://jsonplaceholder.typicode.com/"
+						class=" text-secondary-500 underline hover:text-secondary-400"
+						target="_blank">JSON Placeholder API.</a
+					>
 				</p>
 			</article>
 		</div>
