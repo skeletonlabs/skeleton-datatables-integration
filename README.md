@@ -1,8 +1,16 @@
 # Skeleton 🤝 Svelte Simple Datatables Starter
 
-[Svelte Simple Datatables](https://vincjo.fr/datatables/home) components styled with [Skeleton](https://www.skeleton.dev/).
+[Svelte Simple Datatable](https://vincjo.fr/datatables/home) components styled with [Skeleton](https://www.skeleton.dev/).
 
-![example](static/ssd-skeleton.gif)
+## Examples
+
+### `<Datatable />`
+
+![Datatable Component](static/ssd-skeleton.gif)
+
+### Accessory Components
+
+![Accessory Components](static/components.png)
 
 ## Developing
 
