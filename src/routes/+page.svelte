@@ -12,6 +12,14 @@
 </h1>
 
 <p class="text-center text-xl my-8">
+	A guide to create these components can be found in the <a
+		class="text-tertiary-500 underline"
+		href="https://www.skeleton.dev/docs/ssd"
+		target="_blank">Skeleton Docs.</a
+	>
+</p>
+
+<p class="text-center text-xl my-8">
 	Your components will need to be configured slightly differently depending on whether the data is
 	coming from the server or the client. Examples for each are provided below.
 </p>
