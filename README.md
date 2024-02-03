@@ -6,7 +6,7 @@
 
 ### `<Datatable />`
 
-![Datatable Component](static/ssd-skeleton.gif)
+![Datatable Component](static/themes.gif)
 
 ### Accessory Components
 
