@@ -12,12 +12,12 @@
 		<slot />
 		{#if $sorted.identifier === orderBy}
 			{#if $sorted.direction === 'asc'}
-				🡡
+				&darr;
 			{:else if $sorted.direction === 'desc'}
-				🡣
+				&uarr;
 			{/if}
 		{:else}
-			↕️
+			&updownarrow;
 		{/if}
 	</div>
 </th>
