@@ -22,7 +22,7 @@
 	handler.invalidate();
 </script>
 
-<div class=" overflow-x-auto space-y-2">
+<div class="overflow-y-auto space-y-4">
 	<header class="flex justify-between">
 		<Search {handler} />
 		<RowsPerPage {handler} />
@@ -45,7 +45,7 @@
 				<tr>
 					<td>{row.id}</td>
 					<td>{row.title}</td>
-					<td>{row.completed ? '✅' : '❌'}</td>
+					<td>{@html row.completed ? '&check;' : '&#x2715;'}</td>
 				</tr>
 			{/each}
 		</tbody>

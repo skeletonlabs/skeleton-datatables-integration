@@ -18,12 +18,13 @@
 	const rows = handler.getRows();
 </script>
 
-<div class=" overflow-x-auto space-y-2">
-	<header class="flex justify-between">
+<div class=" overflow-x-auto space-y-4">
+	<!-- Header -->
+	<header class="flex justify-between gap-4">
 		<Search {handler} />
 		<RowsPerPage {handler} />
 	</header>
-
+	<!-- Table -->
 	<table class="table table-hover table-compact w-full table-auto">
 		<thead>
 			<tr>
@@ -47,7 +48,7 @@
 			{/each}
 		</tbody>
 	</table>
-
+	<!-- Footer -->
 	<footer class="flex justify-between">
 		<RowCount {handler} />
 		<Pagination {handler} />

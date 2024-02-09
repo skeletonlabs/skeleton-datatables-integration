@@ -14,6 +14,6 @@
 <th on:click={update} class="cursor-pointer select-none p-2 px-5">
 	<div class="flex h-full items-center justify-start gap-x-2">
 		<slot />
-		[click to sort]
+		[sort]
 	</div>
 </th>

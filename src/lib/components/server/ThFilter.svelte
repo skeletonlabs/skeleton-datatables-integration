@@ -17,7 +17,7 @@
 
 <th>
 	<input
-		class="input variant-form-material h-8 text-sm w-full"
+		class="input text-sm w-full"
 		type="text"
 		placeholder="Filter"
 		bind:value
